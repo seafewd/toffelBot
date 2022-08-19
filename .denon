@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": {
+            "cmd": "deno run app.js --allow-read --allow-env",
+            "desc": "Start the bot",
+            "unstable": true
+            }
+    },
+    "allow": [
+        "read",
+        "net",
+        "env"
+     ]
+}
